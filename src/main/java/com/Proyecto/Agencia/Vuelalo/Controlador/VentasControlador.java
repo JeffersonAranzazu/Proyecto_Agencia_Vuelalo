@@ -16,7 +16,7 @@ public class VentasControlador {
 	
 	@GetMapping("/mostrarFormVentas")
 	public String mostarFormVentas() {
-		return "ventas.html";
+		return "ventas2.html";
 	}
 	
 	
