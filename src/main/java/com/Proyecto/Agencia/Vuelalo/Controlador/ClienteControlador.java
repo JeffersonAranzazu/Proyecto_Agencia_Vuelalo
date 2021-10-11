@@ -15,7 +15,7 @@ import com.Proyecto.Agencia.Vuelalo.Interfaces.Service.IClienteService;
 import com.Proyecto.Agencia.Vuelalo.Model.ClienteModel;
 
 
-//jeimy 07/10
+// Jose Vargas Prueba 19:18h
 @Controller
 @RequestMapping
 public class ClienteControlador {
