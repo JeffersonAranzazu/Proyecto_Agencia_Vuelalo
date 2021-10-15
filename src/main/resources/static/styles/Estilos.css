@@ -9,6 +9,7 @@ body {
 		rgba(41, 184, 229, 1) 51%, rgba(41, 184, 229, 1) 72%,
 		rgba(188, 224, 238, 1) 120%);
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	height: 100vh;
 }
 
 .login_Bienvenidos {
@@ -80,19 +81,22 @@ body {
 	width: 100vw;
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 
 .menu_Contenedor_Titulo {
-	width: 100vw;
-	height: 7vh;
+	width: 93vw;
+	height: 9vh;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 .menu_Contenedor_Titulo h1 {
 	margin: 0px;
 	padding: 3px;
-	font-size: 1.7vw;
+	font-size: 2.4vw;
+	font-weight: 900;
 }
 
 .menu_Contenedor_Menu {
@@ -100,10 +104,12 @@ body {
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	width: 100vw;
+	width: 93vw;
 	height: 5.5vh;
 	font-size: 1.5vw;
 	background-color: #29b8e5;
+	border-bottom-left-radius: 400px 200px;
+	border-bottom-right-radius: 400px 200px;
 }
 
 .menu_Contenedor_Menu a {
@@ -114,7 +120,7 @@ body {
 }
 
 .Contenido_Usuarios {
-	height: 30vh;
+	height: 40vh;
 	width: 98vw;
 	display: flex;
 	flex-direction: column;
@@ -135,12 +141,13 @@ body {
 	padding-right: 2vw;
 	width: 35vw;
 	display: flex;
+	align-items: center;
 	font-size: 1.5vw;
 }
 
 .Contenido_Usuarios_cuadros input {
 	width: 15vw;
-	height: 2.4vh;
+	height: 4vh;
 	font-size: 1vw;
 	border-radius: 10px;
 	padding-left: 10px;
@@ -192,12 +199,13 @@ body {
 	padding-right: 2vw;
 	width: 35vw;
 	display: flex;
+	align-items: center;
 	font-size: 1.5vw;
 }
 
 .Contenido_Clientes_cuadros input {
 	width: 15vw;
-	height: 2.4vh;
+	height: 4vh;
 	font-size: 1vw;
 	border-radius: 10px;
 	padding-left: 10px;
@@ -218,6 +226,7 @@ body {
 	width: 50vw;
 	display: flex;
 	justify-content: center;
+	margin-top: 40px;
 }
 
 .botones_Clientes_conte button {
@@ -249,12 +258,13 @@ body {
 	padding-right: 2vw;
 	width: 35vw;
 	display: flex;
+	align-items: center;
 	font-size: 1.5vw;
 }
 
 .Contenido_Proveedores_cuadros input {
 	width: 15vw;
-	height: 2.4vh;
+	height: 4vh;
 	font-size: 1vw;
 	border-radius: 10px;
 	padding-left: 10px;
@@ -275,6 +285,7 @@ body {
 	width: 50vw;
 	display: flex;
 	justify-content: center;
+	margin-top: 40px;
 }
 
 .botones_Proveedores_conte button {
@@ -320,11 +331,11 @@ body {
 }
 
 .Contenido_Reportes {
-	height: 30vh;
+	height: 50vh;
 	width: 98vw;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 	padding-top: 20vh;
 }
@@ -502,12 +513,10 @@ body {
 .tabla_td_select {
 	width: -webkit-fill-available;
 	border: none;
-	
 }
 
 .border_input {
 	border: none;
-	
 }
 
 .Contenido_Ventas_Factura {
@@ -538,3 +547,10 @@ body {
 	background-color: lightgrey;
 }
 
+.imgVuelalo {
+	padding-top: 30px;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}

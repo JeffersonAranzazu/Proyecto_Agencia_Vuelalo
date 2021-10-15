@@ -123,7 +123,9 @@ function completarUsuario() {
 
 function completarCliente() {
 	var nombreCliente = document.getElementById("selectCliente").value;
+	var cliente = document.getElementById("selectCliente").selectedOptions[0].text;
 	document.getElementById("inputCliente").value = nombreCliente;
+	document.getElementById("nombre_Cli_Vta").value = cliente; 
 
 
 }

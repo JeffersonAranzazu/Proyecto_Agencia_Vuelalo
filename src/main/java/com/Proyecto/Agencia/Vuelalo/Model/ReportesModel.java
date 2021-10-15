@@ -6,22 +6,21 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "tabla_Ventas_Factura ")
-public class FacturaModel {
-
+public class ReportesModel {
 	@Id
 	private String codigo_Vta;
 	private String cedula_Usu_Vta;
 	private String cedula_Cli_Vta;
-	private String nombre_Cli_Vta; 
+	private String  nombre_Cli_Vta;
 	private double valor_Vta;
 	private double valor_IVA;
 	private double valor_Total;
 
-	public FacturaModel() {
+	public ReportesModel() {
 
 	}
 
-	public FacturaModel(String codigo, String cedulaUsu, String cedulaCli, String nombreCli, double valorVenta, double valorIVA,
+	public ReportesModel(String codigo, String cedulaUsu, String cedulaCli, String nombreCli, double valorVenta, double valorIVA,
 			double valorFactura) {
 		super();
 		codigo_Vta = codigo;
@@ -88,6 +87,4 @@ public class FacturaModel {
 	public void setNombre_Cli_Vta(String nombre_Cli_Vta) {
 		this.nombre_Cli_Vta = nombre_Cli_Vta;
 	}
-
-	
 }
