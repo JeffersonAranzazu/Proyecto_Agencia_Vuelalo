@@ -9,11 +9,11 @@
 		<version>2.5.5</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.Proyecto_Agencia_Vuelalo</groupId>
-	<artifactId>Proyecto_Agencia_Vuelalo</artifactId>
+	<groupId>com.Proyecto_Agencia_Ciclo4</groupId>
+	<artifactId>Proyecto_Agencia_Ciclo4</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>Proyecto_Agencia_Vuelalo</name>
+	<name>Proyecto_Agencia_Ciclo4</name>
 	<description>Agencia con Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
